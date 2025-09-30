@@ -244,6 +244,17 @@ article.active {
   padding-bottom: 7px;
 }
 
+.title-dev {
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+  justify-self: center;
+}
+
 .article-title::after {
   content: "";
   position: absolute;
@@ -1962,4 +1973,29 @@ textarea.form-input::-webkit-resizer { display: none; }
 .social-link:hover ion-icon {
   transform: scale(1.2); /* تأثير تكبير بسيط عند الهوفر */
   color: var(--orange-yellow-crayola); /* يخليها تدي لون حلو عند الهوفر */
+}
+
+
+
+/* project image */
+.project-img {
+  width: 100%;
+  height: 200px; /* ارتفاع موحد لكل الصور - ممكن تزوده أو تقلله */
+  overflow: hidden;
+  border-radius: 12px; /* يخلي الصور بحواف ناعمة */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* يخلي الصورة تملأ المساحة بدون ما تتمدد بشكل غريب */
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.project-img img:hover {
+  transform: scale(1.05); /* تكبير بسيط عند الهوفر */
 }
