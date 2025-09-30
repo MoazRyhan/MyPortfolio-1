@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moaz Ryhan ,cairo</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Moaz Ryhan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Moaz Ryhan">Moaz Ryhan</h1>
+          <p class="title">Full Stack Developer (MERN)</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:moazryhan@gmail.com" class="contact-link">moazryhan@gmail.com</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="phone-portrait-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+201159454409" class="contact-link">+20 1159454409</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="calendar-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2002-07-01">Jul 1, 2002</time>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Cairo, Egypt</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/moaz-ryhan-283577278" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/MoazRyhan" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+     <article class="about active" data-page="about">
+        <header><h2 class="h2 article-title">About me</h2></header>
+        <section class="about-text">
+          <p>
+            I’m a Junior MERN Stack Developer with a strong focus on backend Node.js and scalable architecture. 
+            Passionate about building secure APIs, managing databases, and creating smooth user experiences with React and Next.js.
+          </p>
+          <p>
+            My goal is to contribute to impactful projects, bringing robust coding practices, problem-solving, 
+            and a collaborative spirit to every team I join.
+          </p>
+        </section>
+
+        <!-- SERVICES -->
+        <section class="service">
+          <h3 class="h3 service-title">What I'm Doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Backend Development</h4>
+                <p class="service-item-text">Building secure and scalable APIs with Node.js, Express.js, and MongoDB/MySQL.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Development</h4>
+                <p class="service-item-text">Developing responsive user interfaces with React.js, Next.js, and Tailwind CSS.</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Design</h4>
+                <p class="service-item-text">Designing relational and NoSQL schemas with MySQL and MongoDB.</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+      </article>
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+  <article class="resume" data-page="resume">
+  
+    <header>
+      <h2 class="h2 article-title">Resume</h2>
+    </header>
+  
+    <!-- Education -->
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="book-outline"></ion-icon>
+        </div>
+        <h3 class="h3">Education</h3>
+      </div>
+  
+      <ol class="timeline-list">
+  
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Bachelor of Law – Cairo University</h4>
+          <span>Oct 2020 — Aug 2024</span>
+          <p class="timeline-text">
+            Studied Law with a strong foundation in critical thinking, problem-solving, and analytical skills. 
+            Combined legal education with a strong passion for technology and software development.
+          </p>
+        </li>
+  
+      </ol>
+    </section>
+  
+    <!-- Courses -->
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="school-outline"></ion-icon>
+        </div>
+        <h3 class="h3">Courses</h3>
+      </div>
+  
+      <ol class="timeline-list">
+  
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Full Stack Development Diploma (MERN) – Route Academy</h4>
+          <span>Feb 2024 — Apr 2025</span>
+          <p class="timeline-text">
+            Trained in full-stack development with MERN technologies and scalable architecture.  
+            Built and deployed multiple projects with secure authentication, database management, and real-time features.
+          </p>
+        </li>
+  
+      </ol>
+    </section>
+  
+    <!-- Skills -->
+<section class="timeline">
+  <h3 class="h3 skills-title">Technical Skills</h3>
+
+  <ul class="skills-list content-card logos-skills">
+
+    <li class="skills-item">
+      <img src="./assets/icons/html.png" alt="HTML" width="40" height="40">
+      <span>HTML</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/css.png" alt="CSS" width="40" height="40">
+      <span>CSS</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/javascript.png" alt="JavaScript" width="40" height="40">
+      <span>JavaScript</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/typescript.png" alt="TypeScript" width="40" height="40">
+      <span>TypeScript</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/reactjs.png" alt="React.js" width="40" height="40">
+      <span>React.js</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/redux.png" alt="Redux" width="40" height="40">
+      <span>Redux</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/nodejs.png" alt="Node.js" width="40" height="40">
+      <span>Node.js</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/postgresql.png" alt="PostgreSQL" width="40" height="40">
+      <span>PostgreSQL</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/graphql.png" alt="GraphQL" width="40" height="40">
+      <span>GraphQL</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/docker.png" alt="Docker" width="40" height="40">
+      <span>Docker</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/git.png" alt="Git" width="40" height="40">
+      <span>Git</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/figma.png" alt="Figma" width="40" height="40">
+      <span>Figma</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/tailwind.png" alt="Tailwind CSS" width="40" height="40">
+      <span>Tailwind CSS</span>
+    </li>
+
+    <li class="skills-item">
+      <img src="./assets/icons/rubyrails.png" alt="Ruby on Rails" width="40" height="40">
+      <span>Ruby on Rails</span>
+    </li>
+
+  </ul>
+</section>
+
+
+    <!-- Languages -->
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="language-outline"></ion-icon>
+        </div>
+        <h3 class="h3">Languages</h3>
+      </div>
+  
+      <ol class="timeline-list">
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Arabic</h4>
+          <p class="timeline-text">Native Speaker</p>
+        </li>
+        <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">English</h4>
+          <p class="timeline-text">Fluent</p>
+        </li>
+      </ol>
+    </section>
+  
+  </article>
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+<article class="portfolio" data-page="portfolio">
+
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item"><button class="active" data-filter-btn>All</button></li>
+      <li class="filter-item"><button data-filter-btn>Frontend</button></li>
+      <li class="filter-item"><button data-filter-btn>Backend</button></li>
+      <li class="filter-item"><button data-filter-btn>Full-Stack</button></li>
+    </ul>
+
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+        <div class="select-icon"><ion-icon name="chevron-down"></ion-icon></div>
+      </button>
+      <ul class="select-list">
+        <li class="select-item"><button data-select-item>All</button></li>
+        <li class="select-item"><button data-select-item>Frontend</button></li>
+        <li class="select-item"><button data-select-item>Backend</button></li>
+        <li class="select-item"><button data-select-item>Full-Stack</button></li>
+      </ul>
+    </div>
+
+    <ul class="project-list">
+
+      <!-- ✅ Frontend Projects -->
+      <li class="project-item active" data-filter-item data-category="frontend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="mathematicians-academy-front">
+        </figure>
+        <h3 class="project-title">mathematiciansAcademy-front</h3>
+        <a href="https://github.com/MoazRyhan/mathematicians-academy-front" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="frontend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="social_App-front-Next">
+        </figure>
+        <h3 class="project-title">socialApp-front</h3>
+        <a href="https://github.com/MoazRyhan/social_App-front-Next" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="frontend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="FreshCart-front-react">
+        </figure>
+        <h3 class="project-title">FreshCart-front</h3>
+        <a href="https://moazryhan.github.io/FreshCart-front-react/" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="frontend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="Devfoil-front-js">
+        </figure>
+        <h3 class="project-title">Devfoil-front</h3>
+        <a href="https://github.com/MoazRyhan/Devfoil-front-js" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <!-- ✅ Backend Projects -->
+      <li class="project-item active" data-filter-item data-category="backend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="mathematicians-academy-back">
+        </figure>
+        <h3 class="project-title">mathematiciansAcademy-back</h3>
+        <a href="https://github.com/MoazRyhan/mathematicians-academy-back" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="backend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="SocialAPP-back-mongoose">
+        </figure>
+        <h3 class="project-title">SocialAPP-back</h3>
+        <a href="https://github.com/MoazRyhan/SocialAPP-back-mongoose" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="backend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="SmartNote-back-Sequelize">
+        </figure>
+        <h3 class="project-title">SmartNote-back</h3>
+        <a href="https://github.com/yourusername/SmartNote-back-Sequelize" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="backend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="luckybank-back-sequelize">
+        </figure>
+        <h3 class="project-title">luckyBank-back</h3>
+        <a href="https://github.com/MoazRyhan/luckybank-back-sequelize" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="backend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="BlogApp-back-mySQL2">
+        </figure>
+        <h3 class="project-title">BlogApp-back</h3>
+        <a href="https://github.com/MoazRyhan/BlogApp-back-mySQL2" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="backend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="JobMan-back-NoSql">
+        </figure>
+        <h3 class="project-title">JobMan-back</h3>
+        <a href="https://github.com/MoazRyhan/JobMan-back-NoSql" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="backend">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="SarahaApp-back-NoSql">
+        </figure>
+        <h3 class="project-title">SarahaApp-back</h3>
+        <a href="https://github.com/MoazRyhan/SarahaApp-back-NoSql" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <!-- ✅ Full-Stack Projects -->
+      <li class="project-item active" data-filter-item data-category="full-stack">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="mathematicians-academy">
+        </figure>
+        <h3 class="project-title">mathematicians-academy</h3>
+        <a href="https://github.com/yourusername/mathematicians-academy" target="_blank" class="form-btn">View</a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="full-stack">
+        <figure class="project-img">
+          <img src="./assets/images/project-1.jpg" alt="ncpd.org.np">
+        </figure>
+        <h3 class="project-title">ncpd.org.np</h3>
+        <a href="https://github.com/MoazRyhan/ncpd.org.np" target="_blank" class="form-btn">View</a>
+      </li>
+
+    </ul>
+  </section>
+</article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+<article class="contact" data-page="contact">
+  <header>
+    <h2 class="h2 article-title">Contact</h2>
+  </header>
+
+  <section class="contact-form">
+    <h3 class="h3 form-title">Contact Form</h3>
+
+    <form id="contact-form">
+      <div class="input-wrapper">
+        <input type="text" name="name" class="form-input" placeholder="Full name" required>
+        <input type="email" name="email" class="form-input" placeholder="Email address" required>
+      </div>
+      <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+
+<button class="form-btn" type="submit" style="width:100%; display:block;">
+  <span>Send Message</span>
+</button>
+
+    </form>
+  </section>
+</article>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  const SERVICE_ID = "service_ox4leni";
+  const TEMPLATE_ID = "template_ua8igcl";
+  const PUBLIC_KEY = "QfCLTKQay8QUUsw9O"; // غيرها بالمفتاح العام بتاعك
+
+  (function(){
+    emailjs.init(PUBLIC_KEY);
+  })();
+
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    Swal.fire({
+      title: 'Sending...',
+      allowOutsideClick: false,
+      didOpen: () => Swal.showLoading()
+    });
+
+    const templateParams = {
+      from_name: this.name.value,
+      reply_to: this.email.value,
+      message: this.message.value,
+      time: new Date().toLocaleString()
+    };
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams)
+      .then((response) => {
+        console.log('SUCCESS', response);
+        Swal.fire({
+          icon: 'success',
+          title: 'Message Sent!',
+          text: 'I will reply soon.',
+          timer: 2500,
+          showConfirmButton: false
+        });
+        this.reset();
+      })
+      .catch((error) => {
+        console.error('FAILED...', error);
+        Swal.fire({
+          icon: 'error',
+          title: 'Failed to send',
+          text: error.text || "Something went wrong"
+        });
+      });
+  });
+</script>
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
