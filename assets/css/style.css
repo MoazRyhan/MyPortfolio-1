@@ -1951,3 +1951,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin-top: 8px;          /* مسافة صغيرة فوق الزر */
   text-align: center;
 }
+
+
+/* soical icon */
+.social-link ion-icon {
+  font-size: 28px; /* حجم الأيقونات (كبر أو صغر الرقم حسب ما تحب) */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-link:hover ion-icon {
+  transform: scale(1.2); /* تأثير تكبير بسيط عند الهوفر */
+  color: var(--orange-yellow-crayola); /* يخليها تدي لون حلو عند الهوفر */
+}
